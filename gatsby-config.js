@@ -27,12 +27,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
       
-    },
-    {
-      resolve: "gatsby-theme-portfolio",
-      options: {
-        contentPath: `src/content` // the path to your markdown files
-      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
