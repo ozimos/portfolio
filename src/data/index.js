@@ -1,9 +1,9 @@
 module.exports = {
-  defaultTitle: "John Doe",
+  defaultTitle: "Tovieye Moses Ozi",
   logo: "https://gatsby-theme-portfolio.smakosh.com/favicon/favicon-512.png",
-  author: "John Doe",
+  author: "Tovieye Moses Ozi",
   url: "https://gatsby-theme-portfolio.smakosh.com",
-  legalName: "John Doe",
+  legalName: "Tovieye Moses Ozi",
   defaultDescription: "I’m John and I’m a Backend & Devops engineer!",
   socialLinks: {
     twitter: "http://www.twitter.com/smakosh",
@@ -23,14 +23,14 @@ module.exports = {
     twitter: "@smakosh"
   },
   address: {
-    city: "City",
-    region: "Region",
-    country: "Country",
-    zipCode: "ZipCode"
+    city: "Lagos",
+    region: "West Africa",
+    country: "Nigeria",
+    zipCode: "544374"
   },
   contact: {
-    email: "email",
-    phone: "phone number"
+    email: "tovieye.ozi@gmail.com",
+    phone: "08133248846"
   },
   foundingDate: "2019",
   recaptcha_key: "6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN"

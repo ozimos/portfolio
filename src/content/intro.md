@@ -1,6 +1,6 @@
 ---
 section: intro
 title: Hi there!
-description: I’m John and I’m a Backend & Devops engineer!
+description: I’m Moses and I’m a Fullstack Web engineer!
 action: Hire me
 ---
