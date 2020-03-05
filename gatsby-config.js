@@ -16,14 +16,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-styled-components",
     {
-      resolve: "gatsby-mdx",
-      options: {
-        defaultLayouts: {
-          default: require.resolve("./src/components/common/Layout/index.jsx"),
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `src/pages`,
