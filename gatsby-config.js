@@ -6,43 +6,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
-    about: "Get the hottest gist about me",
-    title: "John Doe",
-    logo: "https://gatsby-theme-portfolio.smakosh.com/favicon/favicon-512.png",
-    author: "John Doe",
-    url: "https://gatsby-theme-portfolio.smakosh.com",
-    legalName: "John Doe",
-    description: "I’m John and I’m a Backend & Devops engineer!",
-    socialLinks: {
-      twitter: "http://www.twitter.com/smakosh",
-      github: "https://github.com/smakosh",
-      linkedin: "https://www.linkedin.com/in/ismail-ghallou-630149122/",
-      instagram: "https://instagram.com/smakosh19",
-      youtube: "https://www.youtube.com/user/smakoshthegamer",
-      google: "https://plus.google.com/u/0/+IsmailSmakoshGhallou",
-      telegram: "https://t.me/smakosh",
-      stackOverflow: "https://stackoverflow.com/users/story/7396786",
-    },
-    googleAnalyticsID: "UA-88875900-7",
-    themeColor: "#6b63ff",
-    backgroundColor: "#6b63ff",
-    social: {
-      facebook: "appId",
-      twitter: "@smakosh",
-    },
-    address: {
-      city: "City",
-      region: "Region",
-      country: "Country",
-      zipCode: "ZipCode",
-    },
-    contact: {
-      email: "email",
-      phone: "phone number",
-    },
-    foundingDate: "2019",
-    recaptcha_key: "6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN",
+    about: 'Get the hottest gist about me',
   },
   plugins: [
     "gatsby-transformer-remark",
@@ -110,7 +77,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-favicon",
       options: {
-        logo: `${__dirname}/src/images/gatsby-icon.png`,
+        logo: `${__dirname}/src/images/gatsby-icon.png`, 
         injectHTML: true,
         icons: {
           android: true,
