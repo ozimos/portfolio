@@ -1,6 +1,6 @@
 ---
 section: about
 title: Hi There!
-description: I am interested in broadening the technological tools available to me and using the right tools to solve a problem.
-action: Hire me
+description: I am interested in broadening my technological toolset and finding the simplest solution to a problem by using the right tools.
+action: Hire Me
 ---
