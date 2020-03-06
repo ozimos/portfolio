@@ -1,10 +1,10 @@
 import React from "react";
 import { Form, withFormik, FastField, ErrorMessage } from "formik";
-import Recaptcha from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
 import * as Yup from "yup";
 import Button from "components/common/Button";
 import Input from "components/common/Input";
-import recaptcha_key from "data";
+import {recaptcha_key} from "data";
 import colors from "tokens/colors";
 import { Error, Center, InputField } from "./styles";
 
@@ -64,7 +64,7 @@ const ContactForm = ({
     {values.name && values.email && values.message && (
       <InputField>
         <FastField
-          component={Recaptcha}
+          component={ReCAPTCHA}
           sitekey={recaptcha_key}
           name="recaptcha"
           onChange={value => setFieldValue("recaptcha", value)}

@@ -6,10 +6,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    about: 'Get the hottest gist about me',
+    title: `Hi There!`,
+    description: `I’m Moses and I’m a Fullstack Web Engineer!`,
+    author: `@Tovieye`,
+    about: 'I am interested in broadening my technological toolset and finding the simplest solution to a problem by using the right tools.',
   },
   plugins: [
     "gatsby-transformer-remark",
