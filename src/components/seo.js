@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+import {Helmet} from "react-helmet"
 import Thumbnail from "assets/thumbnail/thumbnail.png";
 import { useStaticQuery, graphql } from "gatsby"
 import {

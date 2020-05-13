@@ -3,13 +3,12 @@ const config = require("./src/data")
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-
 module.exports = {
   siteMetadata: {
     title: `Hi There!`,
     description: `I’m Moses and I’m a Fullstack Web Engineer!`,
     author: `@Tovieye`,
-    about: 'I am interested in broadening my technological toolset and finding the simplest solution to a problem by using the right tools.',
+    about: 'I help businesses thrive by finding the simplest solution to a problem using the right tools. I am constantly broadening my technological toolset.',
   },
   plugins: [
     "gatsby-transformer-remark",

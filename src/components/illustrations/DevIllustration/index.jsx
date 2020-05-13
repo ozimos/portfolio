@@ -5,7 +5,7 @@ export default ({ color = colors.primary }) => (
   <svg viewBox="0 0 674.38 397.257">
     <defs>
       <style>
-        {`.prefix__b{fill:#fbbebe}.prefix__c{fill:#464353}.prefix__d,.prefix__i{opacity:.1}.prefix__e{fill:${color}}.prefix__g{fill:#3f3d56}.prefix__k{fill:none;stroke:#3f3d56;stroke-miterlimit:10;stroke-width:3px}.prefix__l{fill:#3acc6c}.prefix__m{fill:#ff6584}`}
+        {`.prefix__b{fill:#6a5433}.prefix__c{fill:#464353}.prefix__d,.prefix__i{opacity:.1}.prefix__e{fill:${color}}.prefix__g{fill:#3f3d56}.prefix__k{fill:none;stroke:#3f3d56;stroke-miterlimit:10;stroke-width:3px}.prefix__l{fill:#3acc6c}.prefix__m{fill:#ff6584}`}
       </style>
       <linearGradient
         id="prefix__a"

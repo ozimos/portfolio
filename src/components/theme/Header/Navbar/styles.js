@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
 	justify-content: space-between;
 
 	a {
+		text-decoration: none;
 		color: #212121;
 	}
 `

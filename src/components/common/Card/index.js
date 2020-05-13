@@ -6,11 +6,11 @@ const Card = styled.div`
   width: 100%;
   overflow: hidden;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
+  text-decoration: none;
 
   h4 {
     color: #212121;
   }
-
   p {
     color: #707070;
   }

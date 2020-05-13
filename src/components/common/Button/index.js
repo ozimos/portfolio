@@ -15,6 +15,7 @@ const Button = styled.button`
   user-select: none;
   color: ${({ textColor }) => textColor || "#fff"};
   background: ${({ bg }) => bg || colors.buttonColor};
+  text-decoration: none;
 
   &:focus {
     outline: none;
