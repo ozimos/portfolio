@@ -43,8 +43,8 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-flex-ready": "^1.1.0",
     "react-google-recaptcha": "^2.0.1",
+    "react-google-recaptcha-v3": "^1.4.1",
     "react-helmet": "^6.0.0",
-    "react-hook-form": "^5.7.2",
     "styled-components": "^5.1.0",
     "yup": "^0.28.5"
   },

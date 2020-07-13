@@ -40,6 +40,22 @@ const extraProjects = [
       },
     },
   },
+  {
+    node: {
+      id: "yum-nexus",
+      name: "Yum",
+      url: "https://yum-nexus.vercel.app",
+      description:
+        "An ecommerce catering application to enable caterers to list meals and customers to order them",
+      forkCount: 0,
+      stargazers: {
+        totalCount: 0,
+      },
+      primaryLanguage: {
+        name: "Node/JS",
+      },
+    },
+  },
 ]
 export default () => {
   const {
@@ -77,7 +93,7 @@ export default () => {
       }
     `
   )
-  const projects = edges.concat(extraProjects)
+  const projects = extraProjects.concat(edges)
   return (
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
